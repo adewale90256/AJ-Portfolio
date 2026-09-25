@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { ArrowUpRight, Mail, MapPin, Send } from "lucide-react";
+import { ArrowUpRight, Mail, MapPin, Send, MessageCircle } from "lucide-react";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 const Contact = () => {
@@ -84,6 +84,29 @@ const Contact = () => {
 
                 <ArrowUpRight
                   className="ml-auto text-gray-500 transition group-hover:text-blue-400"
+                  size={20}
+                />
+              </a>
+
+              <a
+                href="https://wa.me/2349025642189?text=Hello%20Adewale%2C%20I%20came%20across%20your%20portfolio%20and%20would%20like%20to%20discuss%20a%20project."
+                target="_blank"
+                rel="noreferrer"
+                className="group flex items-center gap-4 rounded-xl border border-white/10 bg-white/[0.03] p-5 transition hover:border-green-500/40 hover:bg-white/[0.06]"
+              >
+                <div className="rounded-lg bg-green-500/10 p-3 text-green-400">
+                  <MessageCircle size={22} />
+                </div>
+
+                <div>
+                  <p className="text-sm text-gray-500">WhatsApp</p>
+                  <p className="mt-1 text-white transition group-hover:text-green-400">
+                    Chat with me
+                  </p>
+                </div>
+
+                <ArrowUpRight
+                  className="ml-auto text-gray-500 transition group-hover:text-green-400"
                   size={20}
                 />
               </a>

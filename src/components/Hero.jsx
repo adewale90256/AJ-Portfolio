@@ -26,7 +26,7 @@ function Hero() {
             </span>
 
             <span className="text-xs font-medium tracking-wide text-gray-300 sm:text-sm">
-              Frontend Developer · Building for the web
+              Frontend Developer · Open to new projects
             </span>
           </div>
 
@@ -75,6 +75,16 @@ function Hero() {
             >
               Get In Touch
             </a>
+
+            <a
+              href="/Adeniji-Adewale-CV.pdf"
+              target="_blank"
+              rel="noreferrer"
+              className="inline-flex items-center gap-3 rounded-xl border border-blue-500/30 bg-blue-500/5 px-6 py-4 text-sm font-semibold text-blue-300 transition duration-300 hover:-translate-y-1 hover:border-blue-500/50 hover:bg-blue-500/10"
+            >
+              View Resume
+              <ArrowRight size={18} />
+            </a>
           </div>
 
           {/* Social Links */}
@@ -95,7 +105,7 @@ function Hero() {
             </a>
 
             <a
-              href="YOUR_LINKEDIN_PROFILE_URL"
+              href="https://www.linkedin.com/in/adeniji-adewale-6b232837a/"
               target="_blank"
               rel="noreferrer"
               aria-label="LinkedIn"
@@ -170,6 +180,7 @@ function Hero() {
                   <p className="text-orange-300">"JavaScript",</p>
                   <p className="text-orange-300">"Tailwind CSS",</p>
                   <p className="text-orange-300">"Firebase"</p>
+                  <p className="text-orange-300">"Sanity CMS"</p>
                 </div>
 
                 <p className="text-gray-400">],</p>

@@ -50,7 +50,7 @@ function Navbar() {
           ))}
 
           <a
-            href="/resume.pdf"
+            href="/Adeniji-Adewale-CV.pdf"
             download
             className="group flex items-center gap-2 rounded-lg border border-white/10 bg-white/4 px-4 py-2.5 text-sm font-medium text-white transition duration-300 hover:border-blue-400/40 hover:bg-blue-500/10"
           >
